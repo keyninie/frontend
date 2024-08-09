@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Carousel() {
   return (
     <div>
-      <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <Image src={B1} className="d-block w-100" alt="Slide 1" width={1080} height={1080} />    

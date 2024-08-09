@@ -35,7 +35,7 @@ export default function Navbar() {
               </Link>
               <Link href="/signin">
                 <button className="btn btn-outline-primary">SignIn</button>
-              </Link>
+              </Link>   
             </div>
           </div>
         </div>
