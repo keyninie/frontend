@@ -98,7 +98,7 @@ export default function UsersPage() {
                     <td className='text-center'>{item.id}</td>
                     <td>{item.firstname}</td>
                     <td>{item.lastname}</td>
-                    <td><Link href={`/user/edit/${item.id}`} className="btn btn-warning">Edit</Link></td>
+                    <td><Link href={`/ users / edit / ${item.id}`} className="btn btn-warning">Edit</Link></td>
                     <td><button className="btn btn-pill btn-danger" type="button" onClick={() => handleDelete(item.id)}><i className="fa fa-trash"></i>Del</button></td>
                   </tr>
                 ))}
