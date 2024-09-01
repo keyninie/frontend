@@ -1,7 +1,10 @@
+// components/Navbar.js
 'use client';
-
-import { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import logo from '../../../public/logo.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { useRouter } from 'next/navigation';
 
 export default function Navbar() {
