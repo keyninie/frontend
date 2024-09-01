@@ -57,6 +57,7 @@ export default function UsersPage() {
         },
       });
 
+
       if (!res.ok) {
         throw new Error('Failed to delete user');
       }
